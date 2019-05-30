@@ -3,9 +3,6 @@
   <head>
     <?php include("../build/script.php"); ?>
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
-
-    <title>Thomas Gallier</title>
-
   </head>
 
   <body>

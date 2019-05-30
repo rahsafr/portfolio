@@ -4,7 +4,7 @@
     <?php include("../build/script.php"); ?>
     <link rel="stylesheet" type="text/css" href="../css/index.css">
 
-    <title>Thomas Gallier | Accueil</title>
+    
 
   </head>
 
