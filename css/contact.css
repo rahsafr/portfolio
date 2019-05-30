@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Titillium+Web&display=swap");
+.color_blue {
+  color: #2c82c9;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  background-color: rgba(17, 17, 17, 0.11);
+  padding: 3% 25.5%;
+}
+@media screen and (max-width: 790px) {
+  .title {
+    padding: 5%;
+  }
+}
+.title p {
+  font-size: 18px;
+}
+
+.contact {
+  padding: 4%;
+}
+.contact .col-md-9 {
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact .col-md-3 {
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact .contact-info {
+  margin-top: 10%;
+}
+.contact .contact-info img {
+  margin-bottom: 15%;
+}
+.contact .contact-info h2 {
+  margin-bottom: 10%;
+}
+.contact .contact-form label {
+  font-weight: bolder;
+}
+.contact .contact-form button {
+  background: white;
+  color: #2c82c9;
+  font-weight: bolder;
+  width: 25%;
+  border: 1px solid #2c82c9;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.contact .contact-form button:hover {
+  background: #2c82c9;
+  color: white;
+}
+.contact .contact-form .form-control {
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.contact .contact-form .form-control:focus {
+  border-color: #f04c1e;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=contact.css.map */

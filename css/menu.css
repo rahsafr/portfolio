@@ -1,26 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Titillium+Web&display=swap");
-body {
-  font-family: "Titillium Web", sans-serif;
-}
-
-footer {
-  text-align: center;
-  padding: 2%;
-  background-color: #d5e7f6;
-}
-
 .color_blue {
   color: #2c82c9;
 }
 
-p {
-  margin: 0;
+body {
+  font-family: "Titillium Web", sans-serif;
 }
 
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+p {
+  margin: 0;
 }
 
 .navbar {
@@ -43,7 +31,7 @@ body {
 }
 .navbar ul li {
   height: 100%;
-  padding: 1% 2%;
+  padding: 1% 0%;
   cursor: pointer;
   border-top: 2px solid white;
   -moz-transition: all 0.5s;
@@ -54,60 +42,21 @@ body {
 @media screen and (max-width: 790px) {
   .navbar ul li {
     margin: 0 !important;
+    border-top: none;
+    border-bottom: 2px solid white;
   }
 }
 .navbar ul li:hover {
   border-top: 2px solid #2c82c9;
 }
+@media screen and (max-width: 790px) {
+  .navbar ul li:hover {
+    border-top: none;
+    border-bottom: 2px solid #2c82c9;
+  }
+}
 .navbar ul li:hover a {
   color: #2c82c9;
-}
-
-.actualite {
-  padding: 5% 20%;
-}
-.actualite h1 {
-  margin-bottom: 4%;
-}
-.actualite .btn {
-  display: flex;
-}
-
-.card {
-  width: 50%;
-  margin: 2% 5%;
-}
-
-.welcome {
-  background-color: #2c82c9;
-}
-.welcome h1 {
-  font-size: 45px;
-  color: white;
-  text-transform: uppercase;
-}
-
-.intro {
-  background-color: rgba(17, 17, 17, 0.11);
-}
-.intro h1 {
-  font-size: 30px;
-}
-
-#actualite_flex {
-  display: flex;
-}
-
-.welcome, .intro {
-  padding: 10% 20%;
-}
-
-.index-top-text {
-  margin: auto;
-}
-.index-top-text h1 {
-  line-height: 110%;
-  text-align: center;
 }
 
 .active-border a {
@@ -122,4 +71,4 @@ body {
   font-size: 18px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,62 @@
+@import "global.scss";
+
+
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+.actualite{
+	padding: 5% 20%;
+	h1{
+		margin-bottom: 4%;
+	}
+	.btn{
+		display: flex;
+	}
+
+}
+.card{
+	width: 50%;
+	margin: 2% 5%;
+}
+.welcome{
+	background-color:$blue_color;
+	padding: 5% 20% 0 20%;
+	h1{
+		font-size: 45px;
+		color: white;
+		text-transform: uppercase;
+	}
+	img{
+		bottom: 0;
+		margin-top: 10%;
+		@media screen and (max-width: 790px){
+			width: 100%;
+		}	
+	}
+}
+.intro{
+	background-color: $gris_color;
+	padding: 6.5% 20%;
+	h1{
+		font-size: 30px;
+	}
+
+}
+#actualite_flex{
+	display: flex;
+}
+
+.index-top-text{
+	margin: auto;
+	h1{
+		line-height:110%;
+		text-align: center;
+	}
+}
+
+
+

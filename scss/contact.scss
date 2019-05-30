@@ -1,0 +1,68 @@
+@import "global.scss";
+
+	.title{
+		background-color: $gris_color;
+		padding: 3% 25.5%;
+		@media screen and (max-width: 790px){
+			padding: 5%;
+		}	
+		p{
+			font-size: 18px;
+		}
+
+	}
+	.contact{
+		padding: 4%;
+
+		.col-md-9{
+			padding: 3%;
+			border-top-right-radius: 0.5rem;
+			border-bottom-right-radius: 0.5rem;
+		}
+
+		.col-md-3{
+			padding: 4%;
+			border-top-left-radius: 0.5rem;
+			border-bottom-left-radius: 0.5rem;
+		}	
+
+		.contact-info{
+			margin-top:10%;
+			
+			img{
+				margin-bottom: 15%;
+			}
+			h2{
+				margin-bottom: 10%;
+			}
+		}
+
+		.contact-form {
+			label{
+				font-weight:bolder;
+			}
+			button{
+				background: white;
+				color: $blue_color;
+				font-weight: bolder;
+				width: 25%;
+				border: 1px solid $blue_color;
+				@include transition(all, 0.5s);
+
+			}
+
+			button:hover{
+				background: $blue_color;
+				color: white;
+			}
+			.form-control{
+				@include transition(all, 0.5s);
+			}
+			.form-control:focus{
+				border-color:$orange_color;
+				box-shadow: none;
+			}
+		}
+		
+	}
+

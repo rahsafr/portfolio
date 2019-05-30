@@ -1,11 +1,5 @@
 @import "global.scss";
 
-
-body{
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
 .navbar{
 	width: 100%;
 	padding: 0% 10%;
@@ -29,17 +23,23 @@ body{
 
 		li{
 			height: 100%;
-			padding: 1% 2%;
+			padding: 1% 0%;
 			cursor: pointer;
 			border-top: 2px solid white;
 			@include transition(all, 0.5s);
 
 			@media screen and (max-width: 790px){
 				margin: 0 !important;
+				border-top:none;
+				border-bottom: 2px solid white;
 			}	
 		}
 		li:hover{
 			border-top: 2px solid $blue_color;
+			@media screen and (max-width: 790px){
+				border-top:none;
+				border-bottom: 2px solid $blue_color;
+			}	
 		}
 		li:hover a{
 			color: $blue_color;
@@ -48,50 +48,6 @@ body{
 	}
 	
 }
-
-.actualite{
-	padding: 5% 20%;
-	h1{
-		margin-bottom: 4%;
-	}
-	.btn{
-		display: flex;
-	}
-
-}
-.card{
-	width: 50%;
-	margin: 2% 5%;
-}
-.welcome{
-	background-color:$blue_color;
-	h1{
-		font-size: 45px;
-		color: white;
-		text-transform: uppercase;
-	}
-}
-.intro{
-	background-color: $gris_color;
-	h1{
-		font-size: 30px;
-	}
-
-}
-#actualite_flex{
-	display: flex;
-}
-.welcome, .intro{
-	padding: 10% 20%;
-}
-.index-top-text{
-	margin: auto;
-	h1{
-		line-height:110%;
-		text-align: center;
-	}
-}
-
 .active-border{
 	a{
 		color: $blue_color !important;
@@ -105,4 +61,3 @@ body{
 		font-size: 18px;
 	}
 }
-

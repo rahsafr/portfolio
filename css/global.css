@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Titillium+Web&display=swap");
-body {
-  font-family: "Titillium Web", sans-serif;
-}
-
-footer {
-  text-align: center;
-  padding: 2%;
-  background-color: #d5e7f6;
-}
-
 .color_blue {
   color: #2c82c9;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
 }
 
 p {
