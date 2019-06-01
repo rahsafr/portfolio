@@ -31,10 +31,16 @@ body {
   width: 50%;
   margin: 2% 5%;
 }
+@media screen and (max-width: 790px) {
+  .card {
+    width: 100%;
+    margin: 5% 0;
+  }
+}
 
 .welcome {
   background-color: #2c82c9;
-  padding: 5% 20% 0 20%;
+  padding: 8.75% 20% 0 20%;
 }
 .welcome h1 {
   font-size: 45px;
@@ -61,6 +67,11 @@ body {
 
 #actualite_flex {
   display: flex;
+}
+@media screen and (max-width: 790px) {
+  #actualite_flex {
+    display: block;
+  }
 }
 
 .index-top-text {

@@ -13,7 +13,7 @@ p {
 
 .title {
   background-color: rgba(17, 17, 17, 0.11);
-  padding: 3% 25.5%;
+  padding: 6% 25.5% 4% 25.5%;
 }
 @media screen and (max-width: 790px) {
   .title {

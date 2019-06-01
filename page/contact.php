@@ -1,7 +1,9 @@
 <!doctype html>
+<?php $nav_en_cours = 'contact'; ?>
+
 <html lang="fr">
   <head>
-    <?php include("../build/script.php"); ?>
+    <?php include("../build/css.php"); ?>
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
   </head>
 
@@ -57,5 +59,7 @@
 
 
     <?php include("../build/footer.php"); ?>
+      
+    <?php include("../build/script.php"); ?>
   </body>
 </html>
