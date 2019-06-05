@@ -27,6 +27,9 @@ body{
     }	
     	   
 }
+.card-body a{
+	color:$blue_color !important;
+}
 .welcome{
 	background-color:$blue_color;
 	padding: 8.75% 20% 0 20%;
