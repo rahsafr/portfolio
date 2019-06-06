@@ -3,8 +3,22 @@
   color: #2c82c9;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 3%;
 }
 
 p {
@@ -40,35 +54,37 @@ h2 {
   padding: 0;
 }
 
-.card {
-  border: none;
-  margin: auto;
-  padding: 5% 0;
-  max-width: 740px !important;
+.progress {
+  margin: 5% 5%;
+  height: auto;
 }
-.card img {
-  max-width: 246px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  cursor: pointer;
-  height: 100%;
-  padding: 0 5% 5% 0;
+
+.progress-bar {
+  background-color: #f04c1e;
+  width: 0;
+  text-align: left;
+  animation: progress 1.5s ease-in-out forwards;
 }
-.card .card-body {
-  padding: 0;
+.progress-bar span {
+  font-size: 20px;
+  margin-left: 1rem;
+  line-height: 2;
 }
-.card .card-title {
-  display: block;
-  width: 100%;
-  text-indent: 3%;
+
+@keyframes progress {
+  from {
+    padding-right: 0;
+  }
+  to {
+    padding-right: auto;
+  }
 }
-.card .card-text {
-  padding: 0 8%;
+.block_text h1 {
+  color: black;
 }
 
 .tabs-wrapper {
-  margin: 5% 10% 0 10%;
+  margin: 5% 10% 5% 10%;
 }
 
 .tabs-wrapper input[type=radio] {
@@ -120,7 +136,7 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   .tabs-wrapper {
-    margin: 0;
+    margin: 0 0 5% 0;
   }
 }
 #tab1:checked + label, #tab2:checked + label, #tab3:checked + label {

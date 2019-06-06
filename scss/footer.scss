@@ -2,4 +2,9 @@ footer{
 	text-align:center;
 	padding:2%;
 	background-color: #d5e7f6;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }

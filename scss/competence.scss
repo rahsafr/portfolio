@@ -29,46 +29,43 @@
     .col-md-6{
         padding: 0;
     }
-    
-    
 }
 
-.card{
-    border: none;
-    margin: auto;
-    padding: 5% 0;
-    max-width: 740px !important;
+.progress{
+    margin: 5% 5%;
+    height: auto;
+}
 
-    img{
-        max-width: 246px;
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        cursor: pointer;
-        height: 100%;
-        padding: 0 5% 5% 0;
-    }
-    .card-body{
-        padding: 0;
-
-    }
-    .card-title{
-        display: block;
-        width:100%;
-        text-indent: 3%;
-    }
-
-    .card-text{
-        padding: 0 8%;
+.progress-bar{
+    background-color: $orange_color;
+    width: 0;
+    text-align: left;
+    animation: progress 1.5s ease-in-out forwards;
+    span{
+        font-size: 20px;
+        margin-left: 1rem;
+        line-height: 2;
     }
 }
 
+@keyframes progress {
+  from {
+    padding-right: 0;
+  }
+  to {
+    padding-right: auto;
+  }
+} 
 
-
+.block_text{
+    h1{
+        color: black;
+    }
+}
 
 
 .tabs-wrapper {
-  margin: 5% 10% 0 10%;
+  margin: 5% 10% 5% 10%;
 }
 .tabs-wrapper input[type=radio] {
   display: none;
@@ -119,7 +116,7 @@
 }
 @media screen and (max-width: 600px) {
   .tabs-wrapper {
-    margin: 0;
+    margin: 0 0 5% 0;
   }
 
 }
@@ -186,3 +183,4 @@
   @include transition(opacity, 1s);
   display: block;
 }
+

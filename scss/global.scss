@@ -4,10 +4,24 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Titillium+Web&display=swap');
 
 
+html{
+    height: 100%;
+    box-sizing: border-box
+}
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body{
 	font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 3%;
 }
+
+
 
 
 p{
