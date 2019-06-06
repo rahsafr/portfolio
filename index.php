@@ -1,4 +1,4 @@
-<!doctype html>
-<?php 
-    header('Location : page/index.php');
+<?php
+  header('Location: /page/index.php');
+  exit();
 ?>
