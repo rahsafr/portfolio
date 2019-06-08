@@ -63,12 +63,18 @@ h2 {
   background-color: #f04c1e;
   width: 0;
   text-align: left;
-  animation: progress 1.5s ease-in-out forwards;
+  animation: progress 2s ease-out forwards;
 }
 .progress-bar span {
   font-size: 20px;
   margin-left: 1rem;
   line-height: 2;
+}
+@media screen and (max-width: 790px) {
+  .progress-bar span {
+    font-size: 14px;
+    color: black;
+  }
 }
 
 @keyframes progress {
@@ -79,12 +85,22 @@ h2 {
     padding-right: auto;
   }
 }
+@media screen and (max-width: 790px) {
+  .block_text {
+    padding-bottom: 8%;
+  }
+}
 .block_text h1 {
   color: black;
 }
 
 .tabs-wrapper {
   margin: 5% 10% 5% 10%;
+}
+@media screen and (max-width: 790px) {
+  .tabs-wrapper {
+    padding-top: 10%;
+  }
 }
 
 .tabs-wrapper input[type=radio] {

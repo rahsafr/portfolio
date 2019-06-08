@@ -10,7 +10,7 @@
   <body>
     <?php include("../build/menu.php"); ?>
 
-      <div class="container-fluid text-center index-top-text welcome animated fadeInLeft fast">
+      <div class="container-fluid text-center index-top-text welcome animated fadeInLeft">
         <h1 class="animated fadeInRight slow">Bienvenue sur mon portfolio</h1>
         <img class="animated fadeInLeft slow" src="../img/work.png" />
       </div>

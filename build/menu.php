@@ -24,7 +24,7 @@
         <a class="nav-link" href="../page/competence.php">compétences</a>
       </li>
       <li class="nav-item <?php if ($nav_en_cours == 'portfolio') {echo 'active-border';} ?>">
-        <a class="nav-link" href="#">portfolio</a>
+        <a class="nav-link" href="../page/portfolio.php">portfolio</a>
       </li> 
       <li class="nav-item <?php if ($nav_en_cours == 'etudes') {echo 'active-border';} ?>">
         <a class="nav-link" href="#">études</a>

@@ -32,7 +32,12 @@ body {
 }
 
 .actualite {
-  padding: 5% 20%;
+  padding: 5% 20% 8% 20%;
+}
+@media screen and (max-width: 790px) {
+  .actualite {
+    padding: 5% 5% 20% 5%;
+  }
 }
 .actualite h1 {
   margin-bottom: 4%;
@@ -93,6 +98,11 @@ body {
 
 .index-top-text {
   margin: auto;
+}
+@media screen and (max-width: 790px) {
+  .index-top-text {
+    padding: 5% 10%;
+  }
 }
 .index-top-text h1 {
   line-height: 110%;

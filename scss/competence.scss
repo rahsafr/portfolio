@@ -40,11 +40,15 @@
     background-color: $orange_color;
     width: 0;
     text-align: left;
-    animation: progress 1.5s ease-in-out forwards;
+    animation: progress 2s ease-out forwards;
     span{
         font-size: 20px;
         margin-left: 1rem;
         line-height: 2;
+        @media screen and (max-width: 790px){
+             font-size: 14px;
+             color: black;
+        }   
     }
 }
 
@@ -58,7 +62,12 @@
 } 
 
 .block_text{
+    @media screen and (max-width: 790px){
+             padding-bottom: 8%;
+    }
+   
     h1{
+
         color: black;
     }
 }
@@ -66,6 +75,10 @@
 
 .tabs-wrapper {
   margin: 5% 10% 5% 10%;
+   @media screen and (max-width: 790px){
+        padding-top: 10%;
+    }
+
 }
 .tabs-wrapper input[type=radio] {
   display: none;
